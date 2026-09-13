@@ -1,0 +1,12 @@
+{
+  "name": "syssecurity",
+  "version": "1.0.0",
+  "description": "공개 소프트웨어 부품(런타임·라이브러리)이 \"막았다·안전하다\"고 선언한 방어가 실제로는 우회되는 지점을 자동으로 검증하는 플랫폼.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

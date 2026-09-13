@@ -1,0 +1,5 @@
+node_modules/
+연구일지.md
+버전기록.md
+*.log
+reports/*.json
