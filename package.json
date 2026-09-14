@@ -1,12 +1,16 @@
 {
   "name": "syssecurity",
-  "version": "1.0.0",
-  "description": "공개 소프트웨어 부품(런타임·라이브러리)이 \"막았다·안전하다\"고 선언한 방어가 실제로는 우회되는 지점을 자동으로 검증하는 플랫폼.",
-  "main": "index.js",
+  "version": "0.2.0",
+  "description": "공개 오픈소스 부품(런타임·라이브러리)이 '수정 완료'라고 선언한 보안 패치가 실제로 집행되는지 자동 검증·측정하는 방어 연구 도구",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "start": "node dist/cli.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.5.1",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  }
 }
