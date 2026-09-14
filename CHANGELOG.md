@@ -12,7 +12,9 @@
 - TypeScript 개발 환경 설정(typescript, tsx, @types/node, tsconfig.json).
 
 ### 겪은 문제와 해결
-- 없음 (계획대로 진행됨).
+- 문제: GitHub 업로드(push) 때 토큰 인증이 막힘(Password authentication is not supported).
+  - 원인: 넣은 값이 유효한 토큰이 아니었음(이전 토큰 분실/만료 추정).
+  - 해결: SSH 키를 만들어 GitHub에 등록하고 원격 주소를 SSH로 바꿈. 이후 push 때 인증을 안 물어봄.
 
 ## v0.1 (2026-09-14)
 ### 한 일
