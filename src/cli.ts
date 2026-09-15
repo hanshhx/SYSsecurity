@@ -85,7 +85,7 @@ async function saveReport(results: CheckResult[]) {
 }
 
 function printUsage() {
-  console.log("SYSsecurity — 부품 보안 검증 도구 (v0.2)");
+  console.log("SYSsecurity — 부품 보안 검증 도구 (v0.3)");
   console.log("");
   console.log("명령:");
   console.log("  list                    검사기 목록 보기");

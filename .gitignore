@@ -3,3 +3,11 @@ node_modules/
 버전기록.md
 *.log
 reports/*.json
+
+프로젝트_인수인계.md
+
+규칙_체크리스트.md
+
+코드해석_일지.md
+
+/dist/

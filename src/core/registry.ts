@@ -1,3 +1,4 @@
+import { relapseChecker } from "../plugins/relapse";
 // ============================================================
 // src/core/registry.ts
 // "등록소": 우리가 가진 검사기들을 한 곳에 모아둔다.
@@ -13,6 +14,7 @@ import { templateChecker } from "../plugins/template-checker";
 // 사용 가능한 모든 검사기.
 // 진짜 검사기(relapse 등)를 만들면 여기 배열에 추가하면 된다.
 const ALL_CHECKERS: Checker[] = [
+  relapseChecker,
   templateChecker,
 ];
 
