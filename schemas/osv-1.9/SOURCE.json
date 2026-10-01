@@ -1,0 +1,10 @@
+{
+  "sourceUrl": "https://raw.githubusercontent.com/ossf/osv-schema/5d078de85c0bc5f9bb86f707f8aaf055d66d2207/validation/schema.json",
+  "sourceCommit": "5d078de85c0bc5f9bb86f707f8aaf055d66d2207",
+  "documentedFormatVersion": "1.9.0",
+  "sha256": "15b10dbb4c4e31c7aae11d22cdd991a9a374758db7c8389e62b3cc37cac92653",
+  "recordedAt": "2026-09-30T13:26:45.608103+00:00",
+  "license": "Apache-2.0",
+  "contentModified": false,
+  "externalReferences": 0
+}

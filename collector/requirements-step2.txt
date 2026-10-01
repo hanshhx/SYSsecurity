@@ -1,0 +1,35 @@
+# SYSsecurity v0.4 step2 collector dependencies
+# Direct dependencies: jsonschema and rfc3986-validator only.
+# Official PyPI wheel hashes; Linux CPython 3.10 x86_64 / Windows CPython 3.12 x86_64.
+# Install: python -m pip install --require-hashes --only-binary=:all: -r requirements-step2.txt
+--index-url https://pypi.org/simple
+--only-binary=:all:
+
+# Source: https://pypi.org/pypi/jsonschema/4.26.0/json
+jsonschema==4.26.0 \
+    --hash=sha256:d489f15263b8d200f8387e64b4c3a75f06629559fb73deb8fdfb525f2dab50ce
+
+# Source: https://pypi.org/pypi/rfc3986-validator/0.1.1/json
+rfc3986-validator==0.1.1 \
+    --hash=sha256:2f235c432ef459970b4306369336b9d5dbdda31b510ca1e327636e01f528bfa9
+
+# Source: https://pypi.org/pypi/attrs/26.1.0/json
+attrs==26.1.0 \
+    --hash=sha256:c647aa4a12dfbad9333ca4e71fe62ddc36f4e63b2d260a37a8b83d2f043ac309
+
+# Source: https://pypi.org/pypi/jsonschema-specifications/2025.9.1/json
+jsonschema-specifications==2025.9.1 \
+    --hash=sha256:98802fee3a11ee76ecaca44429fda8a41bff98b00a0f2838151b113f210cc6fe
+
+# Source: https://pypi.org/pypi/referencing/0.37.0/json
+referencing==0.37.0 \
+    --hash=sha256:381329a9f99628c9069361716891d34ad94af76e461dcb0335825aecc7692231
+
+# Source: https://pypi.org/pypi/rpds-py/0.30.0/json
+rpds-py==0.30.0 \
+    --hash=sha256:0c0e95f6819a19965ff420f65578bacb0b00f251fefe2c8b23347c37174271f3 \
+    --hash=sha256:a090322ca841abd453d43456ac34db46e8b05fd9b3b4ac0c78bcde8b089f959b
+
+# Source: https://pypi.org/pypi/typing-extensions/4.16.0/json
+typing-extensions==4.16.0 \
+    --hash=sha256:481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8

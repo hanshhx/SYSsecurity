@@ -1,0 +1,11 @@
+{
+  "sourceUrl": "https://cveawg.mitre.org/api/cve/CVE-2021-32803",
+  "recordedAt": "2026-09-23T01:12:27.019807+00:00",
+  "sha256": "a66de6b31f2c406fed6be1ce16d38e9c27e3088ef6622ee0da9cec877cad5dbe",
+  "bytes": 7864,
+  "dataVersion": "5.1",
+  "contentModified": false,
+  "licenseUrl": "https://www.cve.org/legal/termsofuse",
+  "noticeFile": "CVE_LICENSE_NOTICE.txt",
+  "purpose": "Format support test only; not execution protection or reproduction proof"
+}

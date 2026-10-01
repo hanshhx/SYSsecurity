@@ -1,0 +1,19 @@
+{
+  "sourceUrl": "https://api.osv.dev/v1/query",
+  "query": {
+    "package": {
+      "name": "tar",
+      "ecosystem": "npm"
+    },
+    "version": "6.1.0"
+  },
+  "recordId": "GHSA-r628-mhmh-qjhw",
+  "recordedAt": "2026-09-30T13:26:45.608103+00:00",
+  "sha256": "60d532503a8e63e82d249b6157fc85fd7e1778d3bc2c0b013fc363b7c5daf3ae",
+  "changes": "Record extracted from API response and JSON indentation changed; field values preserved.",
+  "upstreamUrl": "https://github.com/advisories/GHSA-r628-mhmh-qjhw",
+  "attribution": "GitHub Advisory Database and its contributors",
+  "license": "CC-BY-4.0",
+  "licenseFile": "../GHSA_CC_BY_4_0.txt",
+  "noticeFile": "../OSV_DATA_NOTICE.txt"
+}

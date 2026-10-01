@@ -1,7 +1,7 @@
 {
   "name": "syssecurity",
-  "version": "0.3.0",
-  "description": "공개 오픈소스 부품(런타임·라이브러리)이 '수정 완료'라고 선언한 보안 패치가 실제로 집행되는지 자동 검증·측정하는 방어 연구 도구",
+  "version": "0.4.0",
+  "description": "알려진 취약점 정보를 이용한 실행 보호 소프트웨어 개발 프로젝트. v0.4는 공식 CVE·OSV 자료 수집과 정리를 제공함.",
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/cli.ts",

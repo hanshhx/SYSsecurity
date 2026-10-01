@@ -1,0 +1,18 @@
+SYSsecurity OSV collection notices
+
+Data transport: https://api.osv.dev/v1/query
+OSV data sources and their separate licenses: https://google.github.io/osv.dev/data/
+
+For records identified as GitHub Advisory Database (GHSA):
+Source/attribution: GitHub Advisory Database and its contributors
+https://github.com/github/advisory-database
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+Full license: GHSA_CC_BY_4_0.txt
+Per-record advisory and upstream references are preserved in result.json and raw pages.
+Changes: SYSsecurity rearranges fields and adds query/provenance/state metadata.
+Original response bytes are preserved separately. No endorsement is implied.
+
+These terms do not automatically cover other OSV sources or code linked by records.
+Unknown source licenses remain LICENSE_REVIEW_REQUIRED; do not assume redistribution permission.
+The project's MIT license does not replace third-party data/code licenses.

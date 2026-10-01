@@ -85,7 +85,10 @@ async function saveReport(results: CheckResult[]) {
 }
 
 function printUsage() {
-  console.log("SYSsecurity — 부품 보안 검증 도구 (v0.3)");
+  console.log("SYSsecurity v0.4.0 — 취약점 자료 수집·정리 및 기존 예제 검사");
+  console.log("");
+  console.log("수집: .venv/bin/python collector/query_osv.py --package tar --version 6.1.0");
+  console.log("실제 설치 프로그램의 경고·실행 차단은 후속 단계임.");
   console.log("");
   console.log("명령:");
   console.log("  list                    검사기 목록 보기");

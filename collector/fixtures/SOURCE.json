@@ -1,0 +1,21 @@
+{
+  "file": "CVE-2025-55130.json",
+  "cveId": "CVE-2025-55130",
+  "sourceUrl": "https://cveawg.mitre.org/api/cve/CVE-2025-55130",
+  "originalRetrievedAt": "2026-09-15T01:35:57.3026365+00:00",
+  "originalManifest": "output/feedback_20260915/official_sources/sources_manifest.json",
+  "originalManifestFile": "CVE-2025-55130.json",
+  "localCopyVerifiedOn": "2026-09-17",
+  "sha256": "dec45f0552dbd2312a7b4f5fff828e7a964b7b69c6bb03c108ff0fa53371cf9f",
+  "bytes": 13207,
+  "contentModified": false,
+  "matchesOriginalManifestSha256": true,
+  "recordDataVersion": "5.2",
+  "recordStateInSnapshot": "PUBLISHED",
+  "purpose": "Preserved official metadata for learning and deterministic regression tests.",
+  "isLiveRecord": false,
+  "snapshotNote": "This fixture is the originalRetrievedAt snapshot, not a live statement of the CVE record's present status. localCopyVerifiedOn records a local hash check, not a new API download. The fixture does not establish current vulnerability applicability or authorize any execution-policy decision.",
+  "noticeFile": "CVE_LICENSE_NOTICE.txt",
+  "termsOfUseUrl": "https://www.cve.org/legal/termsofuse",
+  "licenseNote": "CVE record data retains its own MITRE copyright and terms of use. Keep CVE_LICENSE_NOTICE.txt with copies; the project license does not replace these terms."
+}

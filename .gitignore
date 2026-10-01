@@ -11,3 +11,21 @@ reports/*.json
 코드해석_일지.md
 
 /dist/
+
+/.venv/
+
+__pycache__/
+
+*.py[cod]
+
+/reports/cve/
+
+버전별_종합일지.md
+
+/reports/cve-batches/
+
+/reports/osv/
+
+/node_modules/
+/reports/*.json
+/reports/release/
